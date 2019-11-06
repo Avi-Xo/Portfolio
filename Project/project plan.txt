@@ -1,0 +1,6 @@
+presidental candidates info in a database
+GUI has image/text to click on for each candidate for more information
+
+
+
+property object with details, extended to subclass "appartment" with appartment number. fulfills inheritence and poly morphism by adding appartment number.
