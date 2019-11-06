@@ -1,0 +1,148 @@
+/* General */
+
+html,body{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+}
+body{
+    background: #eee;
+}
+a{
+	text-decoration:none;
+	
+}
+.container{
+	
+	margin:0 auto;
+	padding:0px;
+	background:#fff;
+	position:relative;
+	overflow:auto
+}
+.container:after{
+	clear:both;
+	content:'';
+	display:table;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+	padding:8px 5px;
+}
+
+blockquote abbr{
+	cursor:pointer;
+}
+/* Head
+ * Contains all the styling for .head and its child elements
+ *  */
+
+.head .identity{
+	float:left;
+    margin-left: 25px;
+}
+.head .identity h1{
+	margin: 10px 0;
+}
+.head .identity a{
+	color:#222;
+}
+.head .menu{
+
+	float:right;
+}
+.head .menu ul{
+	margin:0px;
+}
+.head .menu ul:after{
+	clear:both;
+	content:'';
+	display:table;
+}
+.head .menu ul li{
+	float:left;
+	list-style-type:none;
+}
+.head .menu ul li a{
+	padding:15px;
+	line-height:27px;
+	display:inline-block;
+	color:white;
+    height: 58px;
+    box-sizing: border-box;
+	background:rgb(42, 88, 146);
+}
+.head .menu ul li a:hover{
+	color:#cecece;
+}
+.banner > img{
+	width:100%;
+    display: block;
+    
+}
+
+/* Body
+ * Contains all the styling for .body and its child elements
+ *  */
+.body{
+	
+}
+.body .full_width{
+	width:100%;
+}
+
+.body .block_full{
+	padding:0px 25px;
+	box-sizing:border-box;
+	margin:10px 0;
+	
+}
+.body .block_full > h1{
+	text-align:center;
+}
+.body .block_container{
+	margin-bottom:20px;
+}
+.body .block_container:after{
+	display:table;
+	clear:both;
+	content:'';
+}
+.body .block_container .block_half{
+	padding:15px 25px;
+	box-sizing:border-box;
+	width:49.25%;
+	float:left;
+}
+.body .block_container .block_half:first-child{
+	margin-right:1.5%
+}
+
+.body .signup input{
+	margin: 10px 0;	
+	display:block;
+}
+
+/* Footer
+ * Contains all the styling for .footer and its child elements
+ *  */
+
+.footer{
+
+}
+.footer .container{
+	
+	box-sizing:border-box;
+	padding: 15px 25px;
+	background:#CD6512;
+	
+}
+.footer .copyright{
+	color:#fff;
+}
