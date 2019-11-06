@@ -1,0 +1,230 @@
+
+
+/* HEADER ------------------------------------------------------------------------------------------ */
+
+#header{
+	width:100%;
+	overflow:auto;
+}
+
+
+#header #banner{
+	height:200px;
+	background-image:url("../images/Flag_of_Ireland.svg.png");
+	background-size:cover;
+
+	background-position:center center;
+}
+
+#header #banner #bannerTextContainer{
+    display: block;
+    font-weight:bold;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px; /* line-height = equal to container height so that it centers the text vertically */
+}
+
+#header #banner #bannerText{
+	font-size:25px;
+
+}
+
+#header #menu{
+	background:#000000; /* Black */
+	overflow:auto;
+}
+
+#header #menu  > ul {
+	margin:0px;	
+	padding-left:20px;
+}
+
+#header #menu > ul > li{
+	float:left;
+}
+
+#header #menu > ul > li > a{
+	padding:20px;
+	color:#fff;
+	text-decoration:none;
+	height:100%;
+	display:block;
+
+}
+/* BODY ------------------------------------------------------------------------------------------ */
+#body{
+	display:flex;	
+	position:relative;
+}
+
+#main-content{
+	width:85%;
+	float:left;
+	background-color:#eee; /* Grey */
+}
+
+
+#statisticsTable{
+    border: 1px solid #dddddd; /* Grey */
+    border-collapse: collapse;
+}
+#statisticsTable th, #statisticsTable td{
+	padding:15px;
+    border: 1px solid #999; /*Dark grey */
+}
+
+
+#body .btn{
+    padding: 6px 12px;
+    cursor:pointer;
+    background:#FF883E; /* Orange */
+    border: 0px;
+    color: #fff;
+}
+#body .btn:hover{ /* on hover */
+	background:#169B62; /* Green */
+}
+#body #video{
+	width:100%;
+	height:250px;
+}
+
+/* BODY - FORM */
+.form-block{
+	margin-bottom:20px;	
+}
+
+.form-block label{
+	display:block;
+	font-weight:bold;
+	margin-bottom:5px;
+
+}
+
+.form-block textarea{
+    display: block;
+ 	box-sizing:border-box;
+    height: 75px;
+    min-width:25%;
+    max-width:100%;
+    padding: 6px 12px;
+
+
+    color: #555;
+    background-color: #fff; /* White */
+    background-image: none;
+    border: 1px solid #ccc; /* Grey */
+    border-radius: 4px;
+}
+
+.form-block input{
+    display: block;
+ 	box-sizing:border-box;
+    height: 34px;
+    padding: 6px 12px;
+
+
+    color: #555;
+    background-color: #fff; /* White */
+    background-image: none;
+    border: 1px solid #ccc; /* Grey */
+    border-radius: 4px;
+
+
+}
+
+.form-block-inline input{
+    display: inline-block;
+ 	box-sizing:border-box;
+    height: 34px;
+    padding: 6px 12px;
+
+
+    color: #555;
+  
+    background-image: none;
+    border: 1px solid #ccc; /* Grey */
+    border-radius: 4px;
+}
+
+.form-block-inline input[type="radio"]{
+    display: inline-block;
+ 	box-sizing:border-box;
+    height:auto;
+    padding: 0px;
+    color: #555555; /* Dark grey */
+    background-image: none;
+    border: 1px solid #ccc; /* Grey */
+    border-radius: 0px;
+}
+
+
+#sidebar{
+	float:right;
+	background:#169B62;
+	width:15%;
+	border-left:1px solid rgba(0,0,0,0.5);
+}
+
+
+
+/* FOOTER --------------------------------------------------------------------------------------*/
+#footer{
+	background:#FF883E; /* Orange */
+
+	width:100%;	
+}
+
+#footer .copyright{
+	text-align:center;
+}
+
+
+/* Global/Generic styling --------------------------------------------------------------------------*/
+
+html,body{
+	overflow:auto;
+	margin:0px;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+	width:100%;
+	position:relative;
+}
+
+h1{
+	margin-top:0px;
+}
+h1.main-h1{
+	text-align:center;
+	border-bottom:1px solid rgba(0,0,0,0.30); /* black border with 30% opacity */
+	padding-bottom:15px;
+}
+p{
+	font-size:15px;
+}
+.container{
+	padding:40px;
+	box-sizing:border-box; /* Border box makes it so that the element keeps the original sizes when adding padding  */
+}
+.block-left{
+	float:left;
+	margin-right:1%;
+	width:49%;
+}
+.block-right{
+	float:right;
+	width:49%;
+	margin-left:1%;
+}
+.clearFloat:after{ /* Creates a ::after pseudo element that clears floated elements, used on elements containing floated elements */
+	display:table;
+	clear:both;
+	content:'';
+		
+}
+img{
+	border:0;
+}
